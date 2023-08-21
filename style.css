@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    /* position: relative; */
+}
+
+main .row {
+position: absolute;
+/* width: 50%; */
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+#weather{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    top: 66%;
+    left: 47%;
+    font-size: larger;
+}
+#search {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    box-shadow: 4px 2px 2px grey;
+}
+
+html { 
+    background: url(cloud.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+}
